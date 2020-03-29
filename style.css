@@ -1,18 +1,48 @@
+/* Colour scheme:
+ DarkOliveGreen: #556B2F
+ DarkSlateGrey: #2F4F4F
+ GhostWhite: #F8F8FF				   
+Link colours:
+ LightCyan: #E0FFFF
+ LightGoldenRodYellow: #FAFAD2
+
+TODO:
+font, 
+man-style: titles, layout
+border
+*/
 body {
     margin: 40px 10%;
     line-height: 1.6;
-    color: #444;
-    padding: 0 10px
+    color: #F8F8FF;
+    background-color: #2F4F4F;
+    padding: 0 10px;
 }
+div.nav {
+    text-align: center;
+}
+/* psButton-style */
+div.nav a {
+ ps   background-color: #556B2F;
+    color: #F8F8FF;
+    padding: 14px 25px;
+    taxt-alighn: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:link, a:hover {
+    color: #E0FFFF;
+}
+a:visited, a:active {
+    color: #FAFAD2;
+}
+
 h1, h2, h3 {
     line-height: 1.2;
 }
 pre code {
     display: block;
-    border: 1px solid grey;
+    border: 1px solid #556B2F;
     margin-top: -25px;
     margin-bottom: -45px;
-}
-div.nav {
-    text-align: center;
 }
