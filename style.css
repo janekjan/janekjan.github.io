@@ -1,3 +1,39 @@
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    width: 90%;
+    background-color: #111122;
+    color: #cccccc;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #bbbbbb;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+a:link, a:visited {
+    color: #bbbbbb;
+    text-weight: bold;
+    background-color: #111122;
+}
+
+.nav {
+    a:hover, a:active {
+	background-color: coral;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+	width: 100%;
+    }
+}
+
+/* OLD STYLE */
+
 /* Colour scheme:
  DarkOliveGreen: #556B2F
  DarkSlateGrey: #2F4F4F
@@ -11,6 +47,7 @@ font,
 man-style: titles, layout
 border
 */
+/*
 body {
     margin: 40px 10%;
     line-height: 1.6;
@@ -21,7 +58,7 @@ body {
 div.nav {
     text-align: center;
 }
-/* psButton-style */
+
 div.nav a {
  ps   background-color: #556B2F;
     color: #F8F8FF;
@@ -46,3 +83,4 @@ pre code {
     margin-top: -25px;
     margin-bottom: -45px;
 }
+*/
