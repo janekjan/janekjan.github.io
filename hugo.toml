@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-uk'
+title = 'Janek Piskorski'
+theme = 'nightfall'
+
+[menu]
+  [[menu.header]]
+    name = "projects"
+		weight = 0
+		url = "projects"
+	[[menu.header]]
+	  name = "blog"
+		weight = 1
+		url = "blog"
+
+[params]
+author = "Janek Piskorski"
+user = "janek"
+hostname = "janekjan.github.io"
+
+readingTime = true
+published = false
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/janekjan"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://linkedin.com"
+
+
+
