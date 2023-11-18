@@ -1,7 +1,7 @@
 +++
 title = 'modue'
-date = 2023-10-06T15:16:43+02:00
-draft = true
+date = 2021-08-06T15:16:43+02:00
+draft = false
 +++
 
 Modue is a startup that aims to create an innovative prosumer modular audio mixer. 

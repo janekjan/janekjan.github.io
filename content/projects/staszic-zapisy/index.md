@@ -1,7 +1,7 @@
 +++
 title = 'Staszic Zapisy'
 date = 2018-12-01T16:00:00+02:00
-draft = true
+draft = false
 +++
 
 Staszic-Zapisy is an office hours sign-up system developed for my high school. It has been used in production since early 2019. It was built using **Flask** and **SQLite** in a group of 3 as a school project.

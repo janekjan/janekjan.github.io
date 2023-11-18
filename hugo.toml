@@ -1,35 +1,39 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-uk'
+# languageCode = 'en-uk'
 title = 'Janek Piskorski'
 theme = 'nightfall'
 
 [menu]
-  [[menu.header]]
-    name = "projects"
-		weight = 0
-		url = "projects"
 	[[menu.header]]
 	  name = "blog"
 		weight = 1
 		url = "blog"
+  [[menu.header]]
+    name = "projects"
+		weight = 0
+		url = "projects"
 
 [params]
 author = "Janek Piskorski"
 user = "janek"
 hostname = "janekjan.github.io"
 
-readingTime = true
+readingTime = false
 published = false
 
 [[params.social]]
 key = 0
-name = "github"
+name = "Github"
 url = "https://github.com/janekjan"
 
 [[params.social]]
 key = 1
-name = "linkedin"
-url = "https://linkedin.com"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jan-piskorski/"
 
+[[params.social]]
+key = 2
+name = "Instagram"
+url = "https://www.instagram.com/janekp00/"
 
 
