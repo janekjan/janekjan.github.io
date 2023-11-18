@@ -1,7 +1,6 @@
 +++
 title = 'A PGAS Memory backend for the OP2 HPC Library'
 date = 2023-10-06T15:16:17+02:00
-draft = true
 +++
 
 _A PGAS memory backend for the OP2 HPC library_ is a Masters group project that I participated in, together with Nick (a great project leader), Nat and Ben. THe purpose of theproject was to implement a new backend, responsible for managing memory and inter-process communication in the OP2 library. OP2 is a domain-specific language, so a library with a partial compilation step, which allows for conducting computations on unstructued meshes, highly optimised for specific platforms, but with single codebase, with many such platforms supported. 

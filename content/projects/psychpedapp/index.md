@@ -1,7 +1,6 @@
 +++
 title = 'PsychPed App'
 date = 2023-10-01T16:00:00+02:00
-draft = false
 +++
 
 PsychPedApp is a bespoke timetabling and online register system for a mental health clinic in Warsaw.

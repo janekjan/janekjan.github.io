@@ -1,7 +1,63 @@
 baseURL = 'https://example.org/'
-# languageCode = 'en-uk'
 title = 'Janek Piskorski'
-theme = 'nightfall'
+theme = 'hugo-coder'
+languageCode = "en"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Janek Piskorski"
+# user = "janek"
+# hostname = "janekjan.github.io"
+info = "Backend developer, music, audio and languages enthusiast"
+keywords = "developer,personal,backend,music,audio.linguistics,blog"
+description = "Janek's site"
+since = 2023
+
+# readingTime = false
+# published = false
+colorScheme = "dark"
+hideColorSchemeToggle = true
+
+[[params.social]]
+key = 0
+weight = 1
+name = "Github"
+url = "https://github.com/janekjan"
+icon = "fa fa-github-square fa-2x"
+
+[[params.social]]
+key = 1
+weight = 2
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jan-piskorski/"
+icon = "fa fa-linkedin-square fa-2x"
+
+[[params.social]]
+key = 2
+weight = 3
+name = "Instagram"
+url = "https://www.instagram.com/janekp00/"
+icon = "fa fa-instagram fa-2x"
+
+[[params.social]]
+key = 3
+weight = 4
+name = "Mastodon"
+url = "https://ieji.de/@janekjan_en"
+icon = "fa fa-mastodon-square fa-2x"
+
+[[menu.main]]
+name = "projects"
+weight = 1
+url = "project-intro"
+
+[[menu.main]]
+name = "blog"
+weight = 2
+url = "blog/"
+
 
 [menu]
 	[[menu.header]]
@@ -12,28 +68,3 @@ theme = 'nightfall'
     name = "projects"
 		weight = 0
 		url = "projects"
-
-[params]
-author = "Janek Piskorski"
-user = "janek"
-hostname = "janekjan.github.io"
-
-readingTime = false
-published = false
-
-[[params.social]]
-key = 0
-name = "Github"
-url = "https://github.com/janekjan"
-
-[[params.social]]
-key = 1
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/jan-piskorski/"
-
-[[params.social]]
-key = 2
-name = "Instagram"
-url = "https://www.instagram.com/janekp00/"
-
-

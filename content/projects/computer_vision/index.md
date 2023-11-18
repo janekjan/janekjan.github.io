@@ -1,7 +1,6 @@
 +++
 title = 'Classification of Pedestrian Activity via Computer Vision'
 date = 2022-05-01T15:00:00+02:00
-draft = true
 +++
 
 Classification of Pedestrian Activity via Computer Vision is my university 3rd year project. It tackles the problem of real-time temporal video classification. The problem could be decomposed into the following goals:
