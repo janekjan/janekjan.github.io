@@ -10,9 +10,9 @@ Classification of Pedestrian Activity via Computer Vision is my university 3rd y
 
 The project has mostly reached these goals. The end result is a 3-step pipeline that by default uses YOLOv3 for object detection, SORT for object tracking and a small bespoke 3D-CNN for classification. On test footage (160x120 30fps) it reached accuracy of 70,5% when classifying from among 6 activities and speed of above 25fps for up to dozens of objects.
 
-FInal report of the project is available to download as a PDF here: LINK
+Final report of the project is available to download as a PDF here: **[PDF](/report-computer-vision.pdf)**
 
-You can view the model and try it for yourself here: LINK
+You can view the model and try it for yourself here: (soon)
 
 If you want to improve or discuss the project, please do let me know!
 

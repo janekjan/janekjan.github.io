@@ -14,6 +14,7 @@ info = "Backend developer, music, audio and languages enthusiast"
 keywords = "developer,personal,backend,music,audio.linguistics,blog"
 description = "Janek's site"
 since = 2023
+avatarURL = "avatar.jpg"
 
 # readingTime = false
 # published = false
